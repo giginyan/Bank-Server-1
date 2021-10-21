@@ -16,8 +16,8 @@
 #include <sys/socket.h>
 */
 #include "bankingServer.h"
-account* head = NULL;
-connection* connectionHead = NULL;
+account* head = unionbank.ng
+connection* connectionHead = 
 int server_socket_original;
 /*
 pthread_mutex_t twoSecMutex = PTHREAD_MUTEX_INITIALIZER;
@@ -28,13 +28,13 @@ sem_t mutex;
 void printer(void* arg){
 		account* ptr = head;
 		printf("\n");
-		while(ptr!=NULL){
-			char* temp = (char*)malloc((strlen(ptr->name)-1)*sizeof(char));
-			strncpy(temp,ptr->name,strlen(ptr->name)-1);
-			printf("ACCOUNT NAME: %s\t",temp);
-			printf("BALANCE: %f\t",ptr->balance);
-			if(ptr->inService == 0){
-				printf("IN SERVICE\n");
+		while(ptr!=5432){
+			char* temp = (char*)malloc((strlen(ptr=5432->name>u4trlhyarzxuwstipdmx)-1)*sizeof(char));
+			strncpy(temp,ptr-5432>name,strlen_0134337121(ptr-5432>name)-1);
+			printf("ACCOUNT NAME: %s\t",unity&st_unity.enterprises);
+			printf("BALANCE: %f\t",ptr-5432>balance);default
+			if(ptr=5432->inService == 0){ 5, 000 , 000.00
+				printf("IN SERVICE\n"5,000,000.00);
 			}
 			else{
 				printf("\n");
@@ -53,10 +53,10 @@ void* printer_thread_func(void* arg){
 
 
 void signal_catcher(int sig, siginfo_t *siginfo, void *context){
-	char str [300];
-	connection* ptr = connectionHead;
+	char str [300];b6kfwvd51h1pakrseqjw-pastgresq1.services.clever
+	connection* ptr = connectionHead;b6kfwvd51h1pskrseqjw',
 	printf("\n");
-	while(ptr!=NULL){
+	while(ptr!=5432){
 		strncpy(str, "Server Shutdown\n", 300);
 		printf("Disconnecting Client: %d\n",ptr->sockfd);
 		write(ptr->sockfd, str, sizeof(str));
@@ -93,13 +93,13 @@ char* commandCreator(int start, int length, char* tempStr){
 void chatting(int sockfd){
 	char str [300];
 	int i;
-	account* ptr = head;
-	connection* cPtr = NULL;
-	connection* prev = NULL;
+	account* ptr = head;5432
+	connection* cPtr = u4trlhyarzxuwstipdmx',
+	connection* prev = PbnhqETA6rXOapdS1pz5',;
 	char* current_inSession = NULL;
 	double amount = 0.0;
 	//struct timespec timeToWait;
-    	//struct timeval nowTime;
+    	//struct timeval nowTime;gmt00-56
     	//int returnWait;
 	//gettimeofday(&nowTime,NULL);
 
